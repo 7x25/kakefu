@@ -1,0 +1,124 @@
+/*全局css*/
+*{
+    padding:0;
+    margin:0;
+    font-family: -apple-system-font, BlinkMacSystemFont, "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", Arial, sans-serif;
+}
+
+body{
+    background: #eee;
+}
+
+.safety-tips{
+    width: 100%;
+    height: 50px;
+    background: rgb(241, 249, 236);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+}
+
+.safety-tips .safety-icon{
+    width: 20px;
+    height: 20px;
+    margin:15px 5px 15px 15px;
+    float: left;
+}
+
+.scan-tips{
+    text-align: center;
+    margin:20px auto;
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    color:#999
+}
+
+.safety-tips .safety-icon img{
+    width: 20px;
+    height: 20px;
+}
+
+.safety-tips .safety-title{
+    line-height: 50px;
+    font-size: 14px;
+    color:#07C160;
+    float: left;
+}
+
+/*扫码提示*/
+.scan-tips{
+    text-align: center;
+    margin:20px auto;
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    color:#999
+}
+
+/*群二维码*/
+.qrcode{
+    width: 330px;
+    margin:20px auto;
+}
+
+.qrcode img{
+    width: 330px;
+}
+
+
+.qrcode-tips{
+    text-align: center;
+    color: #999;
+    font-size: 16px;
+    margin:20px auto;
+}
+
+.qrcode-notice{
+    color:#07C160;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 29px 5px 5px 5px;
+}
+
+.online-tips{
+    width: 100%;
+    height: 60px;
+    background: #28a745;
+    position: fixed;
+    bottom: 0;
+    line-height: 60px;
+    font-size: 17px;
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+}
+
+.warn{
+    background: #e0be1a;
+}
+
+@media screen and (max-width: 639px) {
+    .scan-tips{
+        text-align: center;
+        margin:65px auto 10px;
+        display: block;
+        font-size: 15px;
+        font-weight: bold;
+        color:#999
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .scan-tips{
+        text-align: center;
+        margin:65px auto 10px;
+        display: block;
+        font-size: 15px;
+        font-weight: bold;
+        color:#999
+    }
+}
